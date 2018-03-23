@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/headerUsername"
+    tools:context="byteuawesome.bungkus.ActivityLogin.Login">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="@dimen/default_Widget_Gap"
+            android:paddingStart="@dimen/default_Widget_Gap">
+
+            <ImageView
+                android:id="@+id/ImageView_Login_MainLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/DESCRIPTION_Login_Logo"
+                android:src="@drawable/logologin" />
+
+            <LinearLayout
+                android:id="@+id/loginSection1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ImageView_Login_MainLogo"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp">
+
+                    <EditText
+                        android:id="@+id/editText_Login_Username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_menu_share"
+                        android:hint="@string/IND_Login_EditText_Username" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp">
+
+                    <EditText
+                        android:id="@+id/editText_Login_Password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_menu_camera"
+                        android:hint="@string/IND_Login_EditText_Password" />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_alreadyhaveaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Button_Login_Login"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/IND_Login_tv_LetUsHelpYou" />
+
+            <Button
+                android:id="@+id/Button_Login_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loginSection1"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/IND_Login_Button_Login"
+                android:textAllCaps="false"
+                android:textColor="@color/headerUsername" />
+
+            <Button
+                android:id="@+id/Button_Login_SignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_alreadyhaveaccount"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/IND_Login_Button_SignUp"
+                android:textAllCaps="false"
+                android:textColor="@color/headerUsername" />
+
+            <TextView
+
+                android:id="@+id/tv_Login_TextNow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Button_Login_SignUp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/IND_Login_TextView_Now" />
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

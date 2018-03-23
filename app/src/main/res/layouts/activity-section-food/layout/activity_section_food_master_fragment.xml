@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/searchSection"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchView_Food"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5"
+            android:background="@color/grey_100"
+            android:gravity="center"
+            app:iconifiedByDefault="false"
+            app:defaultQueryHint="search Food"
+            app:queryHint="Search Food">
+
+        </android.support.v7.widget.SearchView>
+
+        <TextView
+            android:id="@+id/textView_SectionFood_Cart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:textColor="@color/grey_100"
+            android:text="cart icon"
+            android:gravity="center"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchSection">
+
+        <include layout="@layout/content_fragment_section_food" />
+
+    </LinearLayout>
+
+</RelativeLayout>

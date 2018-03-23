@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="byteuawesome.bungkus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logokotak"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logobulat"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityLogin.Login"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ActivityDashboard.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SectionFood.SectionFoodMaster"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SectionTransport.SectionTransport"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SectionBills.SectionBills"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivitySignUp.SignUp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ActivityTopUp.TopUp" />
+        <activity
+            android:name=".ActivityMenuDetail.MenuDetail"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".ActivityStoreDetail.StoreDetail" />
+        <activity
+            android:name=".ActivityCart.Cart"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".ActivitySplash.Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

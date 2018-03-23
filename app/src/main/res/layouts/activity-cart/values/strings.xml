@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="DESCRIPTION_Login_Logo">Login logo</string>
+
+
+    <string name="ENG_Login_EditText_Username">   Username</string>
+    <string name="ENG_Login_EditText_Password">   Password</string>
+    <string name="ENG_Login_Button_Login">Login</string>
+    <string name="ENG_Login_tv_LetUsHelpYou">Let us help you</string>
+    <string name="ENG_Login_Button_SignUp">Sign Up</string>
+    <string name="ENG_Login_TextView_Now">Now !</string>
+
+    <string name="IND_Login_EditText_Username"><![CDATA[  Nama Pengguna / Username]]></string>
+    <string name="IND_Login_EditText_Password"><![CDATA[  Kata Sandi / Password]]></string>
+    <string name="IND_Login_Button_Login">Masuk</string>
+    <string name="IND_Login_tv_LetUsHelpYou">Nikmati kemudahan berbelanja</string>
+    <string name="IND_Login_Button_SignUp">Gabung</string>
+    <string name="IND_Login_TextView_Now">untuk ANDA!</string>
+
+    <string name="ENG_Dashboard_Tab_Feed_Promotion">Promotion</string>
+    <string name="ENG_Dashboard_Tab_Feed_AllPromotion"><![CDATA[All Promotion ->]]></string>
+    <string name="ENG_Dashboard_Tab_Feed_LastViewed">Last Viewed</string>
+    <string name="ENG_Dashboard_Tab_Feed_AllLastViewed"><![CDATA[See Last Viewed ->]]></string>
+    <string name="ENG_Dashboard_Tab_Feed_WhatsTrending">Whats Trending</string>
+    <string name="ENG_Dashboard_Tab_Feed_SeeAllTrending"><![CDATA[See All Trending->]]></string>
+
+    <string name="IND_Dashboard_Tab_Feed_Promotion">Promo</string>
+    <string name="IND_Dashboard_Tab_Feed_AllPromotion"><![CDATA[Lihat Semua Promo->]]></string>
+    <string name="IND_Dashboard_Tab_Feed_LastViewed">Terakhir Dilihat</string>
+    <string name="IND_Dashboard_Tab_Feed_AllLastViewed"><![CDATA[Lihat Semua Terakhir Dilihat->]]></string>
+    <string name="IND_Dashboard_Tab_Feed_WhatsTrending">Lagi Trending</string>
+    <string name="IND_Dashboard_Tab_Feed_SeeAllTrending"><![CDATA[Lihat Semua Trending->]]></string>
+
+    <string name="ENG_Dashboard_Tab_Help_FAQ">Frequently Asked Question</string>
+    <string name="ENG_Dashboard_Tab_Help_HowTo">How To</string>
+    <string name="ENG_Dashboard_Tab_Help_TermsAndCondition">Terms And Condition</string>
+    <string name="ENG_Dashboard_Tab_Help_AboutApp">About App</string>
+    <string name="ENG_Dashboard_Tab_Help_AboutDeveloper">About Developer</string>
+
+    <string name="IND_Dashboard_Tab_Help_FAQ">Pertanyaan Umum</string>
+    <string name="IND_Dashboard_Tab_Help_HowTo">Langkah-langkah Umum</string>
+    <string name="IND_Dashboard_Tab_Help_TermsAndCondition">Syarat dan Ketentuan</string>
+    <string name="IND_Dashboard_Tab_Help_AboutApp">Tentang Aplikasi</string>
+    <string name="IND_Dashboard_Tab_Help_AboutDeveloper">Tentang Pengembang</string>
+
+    <string name="ENG_SectionFood_UnClicked_FoodByProcessCategories">Food By Process Categories</string>
+    <string name="ENG_SectionFood_UnClicked_ProcessedFood">Processed Food</string>
+    <string name="ENG_SectionFood_UnClicked_RawFood">Raw Food</string>
+    <string name="ENG_SectionFood_UnClicked_Snack">Snack</string>
+
+    <string name="IND_SectionFood_UnClicked_FoodByProcessCategories">Kategory Makanan</string>
+    <string name="IND_SectionFood_UnClicked_ProcessedFood">Makanan Jadi</string>
+    <string name="IND_SectionFood_UnClicked_RawFood">Bahan Mentah</string>
+    <string name="IND_SectionFood_UnClicked_Snack">Snack</string>
+
+    <string name="ENG_SectionFood_Clicked_Sort">Sort:</string>
+    <string name="ENG_SectionFood_Clicked_Name">Name</string>
+    <string name="ENG_SectionFood_Clicked_Price">Price</string>
+    <string name="ENG_SectionFood_Clicked_Rating">Rating</string>
+
+    <string name="IND_SectionFood_Clicked_Sort">Urutkan:</string>
+    <string name="IND_SectionFood_Clicked_Name">Nama</string>
+    <string name="IND_SectionFood_Clicked_Price">Harga</string>
+    <string name="IND_SectionFood_Clicked_Rating">Rating</string>
+
+    <string name="ENG_MenuDetail_Description">Description</string>
+    <string name="ENG_MenuDetail_Order">ORDER</string>
+
+    <string name="IND_MenuDetail_Description">Deskripsi</string>
+    <string name="IND_MenuDetail_Order">PESAN</string>
+
+    <string name="ENG_Cart_ConfirmOrder">Confirm Order</string>
+    <string name="ENG_Cart_AccountBal">Account Balance</string>
+    <string name="ENG_Cart_TopUp">TOP UP</string>
+    <string name="ENG_Cart_TotalOrderPrice">Total Order Price</string>
+    <string name="ENG_Cart_AfterBalance">After Balance</string>
+    <string name="ENG_Cart_UseCurrentLocation">Use current location</string>
+
+    <string name="IND_Cart_ConfirmOrder">Konfirmasi Pesanan</string>
+    <string name="IND_Cart_AccountBal">Saldo</string>
+    <string name="IND_Cart_TopUp">TOP UP</string>
+    <string name="IND_Cart_TotalOrderPrice">Total Harga Pesanan</string>
+    <string name="IND_Cart_AfterBalance">Saldo Sisa</string>
+    <string name="IND_Cart_UseCurrentLocation">Gunakan Lokasi Sekarang</string>
+
+    <string name="ENG_StoreDetail_FeaturedMenu">Featured Menu</string>
+    <string name="ENG_StoreDetail_OpenOrder">OPEN ORDER</string>
+
+    <string name="IND_StoreDetail_FeaturedMenu">Daftar Menu</string>
+    <string name="IND_StoreDetail_OpenOrder">BUKA</string>
+
+</resources>
